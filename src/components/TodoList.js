@@ -91,7 +91,7 @@ class TodoList extends Component {
 
 function mapStateToProps(state) {
   return {
-    todos: state.state,
+    todos: state.todos,
     filter: state.filter
   };
 }

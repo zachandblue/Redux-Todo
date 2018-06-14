@@ -9,7 +9,7 @@ body {
 .App {
   text-align: center;
   width: 100%;
-  max-width: 640px;
+  max-width: 750px;
   background: #2a3e51;
   margin: auto;
   height: 100vh;
@@ -96,7 +96,6 @@ button:focus {
   top: 10px;
   font-family: "Indie Flower", cursive;
   font-family: "Quicksand", sans-serif;
-
   list-style-type: none;
   text-align: left;
 }
@@ -183,7 +182,7 @@ button:focus {
   transition: all 400ms ease-in;
 }
 
-@media (min-width: 650px) {
+@media (min-width: 750px) {
   .App {
     margin-top: 5vh;
     width: 65%;
